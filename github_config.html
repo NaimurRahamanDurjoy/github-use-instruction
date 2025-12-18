@@ -7,10 +7,10 @@
     <link rel="stylesheet" href="github_config/github_config.css">
 </head>
 <body>
-    <h1>How to Configure Github?</h1>
+    <h1 id="main_header">CONFIGURATION OF GITHUB</h1>
 
     <!-- Basic Configuration Steps of GitHub -->
-    <div>
+    <div class="div_section" id="config_steps">
         <h2>Basic Configuration Steps</h2>
         <ol>
             <li>Install Git on your local machine.</li>
@@ -23,7 +23,7 @@
     </div>
 
     <!-- How to create a GitHub repository -->
-    <div>
+    <div class="div_section" id="repo_create_ins">
         <h2>How to create a GitHub repository</h2>
         <ol>
             <li>Log in to your GitHub account.</li>
@@ -36,7 +36,7 @@
     </div>
 
     <!-- How to configure first repository? -->
-    <div>
+    <div class="div_section" id="config_first_repo">
         <h2>How to configure first repository?</h2>
         <ol>
             <li>Open your terminal or command prompt.</li>
@@ -50,7 +50,7 @@
     </div>
 
     <!-- Create a new repository on the command line -->
-    <div>
+    <div class="div_section" id="cmd_line_new_repo">
         <h2>Create a new repository on the command line</h2>
         <ol>
             <li>Create a new directory for your project: mkdir [project-name]</li>
@@ -63,20 +63,22 @@
             <li>Link to the remote repository: git remote add origin [repository URL]</li>
             <li>Push the changes: git push -u origin main</li>
         </ol>
-        <!-- Short cut commands: -->
-        <h3>Short cut commands:</h3>
-        <ol>
-            <li>git init</li>
-            <li>git add .</li>
-            <li>git commit -m "Initial commit"</li>
-            <li>git branch -M main</li>
-            <li>git remote add origin [repository URL]</li>
-            <li>git push -u origin main</li>
-        </ol>
+         <!-- Short cut commands: -->
+        <div id="shortcut_cmd">
+           <h3>Short cut commands:</h3>
+            <ol>
+                <li>git init</li>
+                <li>git add .</li>
+                <li>git commit -m "Initial commit"</li>
+                <li>git branch -M main</li>
+                <li>git remote add origin [repository URL]</li>
+                <li>git push -u origin main</li>
+            </ol>
+        </div>
     </div>
 
     <!-- After creating a repository will follow these steps -->
-    <div>
+    <div class="div_section" id="push_new_code_to_repo">
         <h2>After creating a repository will follow these steps</h2>
         <ol>
             <li>git add .</li>
